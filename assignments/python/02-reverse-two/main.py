@@ -1,5 +1,6 @@
 # Write your solution here.
 x = input()
-a = x[0]
-b = x[2]
+lockin = x.split()
+a = lockin[0]
+b = lockin[1]
 print(b, a)
