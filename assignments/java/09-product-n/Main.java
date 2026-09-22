@@ -5,13 +5,13 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         // Write your solution here.
         int a = Integer.parseInt(scanner.nextLine()); 
-        long b = scanner.nextLong();
-        long c = 0;
+        BigInteger b = scanner.nextBigInteger();
+        BigInteger c = 0;
         for(int i = 0; i < a - 1; i++){
-            c = scanner.nextLong();
+            c = scanner.nextBigInteger();
             b *= c;
+            b %= 1000000007;
         }
-        b %= 1000000007;
 
         IO.print(b);
     }
