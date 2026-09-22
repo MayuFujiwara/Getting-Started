@@ -8,7 +8,7 @@ public class Main {
         long b = scanner.nextLong();
         long c = 0;
         for(int i = 0; i < a - 1; i++){
-            c = scanner.nextBigInteger();
+            c = scanner.nextLong();
             b *= c;
             b %= 1000000007;
         }
