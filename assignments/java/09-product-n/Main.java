@@ -5,8 +5,8 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         // Write your solution here.
         int a = Integer.parseInt(scanner.nextLine()); 
-        BigInteger b = scanner.nextBigInteger();
-        BigInteger c = 0;
+        long b = scanner.nextLong();
+        long c = 0;
         for(int i = 0; i < a - 1; i++){
             c = scanner.nextBigInteger();
             b *= c;
